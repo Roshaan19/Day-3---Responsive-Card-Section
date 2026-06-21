@@ -1,0 +1,133 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth Scroll */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7fc;
+    color: #333;
+}
+
+/* Hero Section */
+.hero{
+    text-align: center;
+    padding: 80px 20px 40px;
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.hero p{
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Skills Section */
+.skills-section{
+    padding: 40px 20px 80px;
+}
+
+/* Card Container */
+.card-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.card{
+    background: #fff;
+    width: 340px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card h2{
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.card p{
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #1d4ed8;
+}
+
+/* Details Section */
+.details{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.details h2{
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.details p{
+    color: #666;
+    line-height: 1.8;
+}
+
+/* Responsive Design */
+@media(max-width:768px){
+
+    .hero h1{
+        font-size: 2.2rem;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .details{
+        margin: 20px;
+        padding: 25px;
+    }
+}
